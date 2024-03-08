@@ -1,0 +1,29 @@
+{
+  "name": "shopify-products-finder",
+  "version": "1.0.0",
+  "description": "This app contains a solution for a simple Node Express API service running on AWS Lambda using the traditional Serverless Framework, which accepts Shopify store URL as an input and returns the prices of the least and the most expensive t-shirts offered by the store, along with the currency.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "keywords": [
+    "Shopify Store",
+    "Backend",
+    "API",
+    "T-Shirt Prices"
+  ],
+  "author": "Arham Irfan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.3",
+    "joi": "^17.12.2",
+    "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
