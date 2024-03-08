@@ -1,4 +1,4 @@
-# Backend Dev Task
+# Shopify Products Finder - Backend Dev Task
 
 This app contains a solution for a simple Node Express API service running on AWS Lambda using the traditional Serverless Framework, which accepts Shopify store URL as an input and returns the prices of the least and the most expensive t-shirts offered by the store, along with the currency.
 
